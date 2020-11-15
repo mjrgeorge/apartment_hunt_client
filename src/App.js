@@ -1,11 +1,29 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/Home/Home/Home';
+import NotMatch from './components/NotMatch/NotMatch';
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-info">Hello World!</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="*">
+          <NotMatch />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
