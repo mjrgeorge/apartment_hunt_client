@@ -7,6 +7,10 @@ import lessee_1 from '../../../assets/logos/lessee_1.png';
 const Services = () => {
     return (
         <div className="container">
+            <div className="text-center mt-5">
+                <h5>Service</h5>
+                <h2>We're an agency tailored to all <br/> clients' needs that always delivers</h2>
+            </div>
             <div className="row">
                 <div className="col-md-4 p-5 my-5 text-center">
                     <img style={{ height: '50px' }} src={apartment_1} alt="img" />

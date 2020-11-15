@@ -3,7 +3,10 @@ import React from 'react';
 const Apartments = () => {
     return (
         <section className="container">
-            <h1>This is Apartment Component</h1>
+            <div className="text-center m-5">
+                <h5>House Rent</h5>
+                <h2>Discover the latest Rent <br /> available today</h2>
+            </div>
         </section>
     );
 };
