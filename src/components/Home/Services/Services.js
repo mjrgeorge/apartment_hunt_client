@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <div className="container">
             <div className="text-center mt-5">
-                <h5>Service</h5>
+                <h6>Service</h6>
                 <h2>We're an agency tailored to all <br/> clients' needs that always delivers</h2>
             </div>
             <div className="row">
