@@ -12,8 +12,8 @@ const Home = () => {
         <div>
             <NavBar />
             <Header />
-            <section className="container">
-                <div className="text-center m-5">
+            <section className="container my-4">
+                <div className="text-center">
                     <h6>House Rent</h6>
                     <h2>Discover the latest Rent <br /> available today</h2>
                     <div className="row">

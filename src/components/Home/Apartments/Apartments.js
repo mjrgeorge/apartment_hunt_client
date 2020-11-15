@@ -4,9 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBath, faBed, faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
 const Apartments = ({ product }) => {
-    console.log(product);
     return (
-        <div className="col-md-4 my-3">
+        <div className="col-md-4 mt-4">
             <div className="card" style={{ width: "18rem" }}>
                 <img src={product.image} className="card-img-top" alt="" />
                 <div className="card-body">
